@@ -1,13 +1,17 @@
 
 public class main {
 
-    public static void main(String[] args) {
 
-    }
+    
+    public static  char convertToAscii (int a){
+    char ascii = (char)a;
+    return ascii;
+
 
     public static char convertToAscii(int a) {
         char ascii = (char) a;
         return ascii;
+
     }
     
     //Christian Laviolette
@@ -19,6 +23,15 @@ public class main {
         return x + y;
     }
 
+
+
+    public static boolean isEven(int n){
+        return n%2==0;
+    }
+
+
+
+=======
     private static void alecsFunction() {
         System.out.println("This is for lab 3 in CS 41600");
     }
@@ -31,4 +44,5 @@ public class main {
 
         System.out.println("Your lucky number is: " + (x + y));
     }
+
 }
