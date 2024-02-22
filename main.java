@@ -4,12 +4,18 @@ public class main {
             
         }
 
-        //Elijah's Function
-        public static void elijah(int n){
-            for(int i = 0; i < n; ++i){
+      //Elijah's Function
+      public static void elijah(int n){
+        for(int i = 0; i < n; ++i){
+            if(n == 0){
+                System.out.println(":(");
+            }
+            else{
                 System.out.println(":D");
             }
-        }
+            
+        } //updated function, 2nd commit
+    }
         
         public static  char convertToAscii (int a){
         char ascii = (char)a;
