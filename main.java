@@ -1,5 +1,6 @@
 
 public class main {
+
     
     public static  char convertToAscii (int a){
     char ascii = (char)a;
@@ -15,8 +16,11 @@ public class main {
         return x+y;
     }
 
+
     public static boolean isEven(int n){
         return n%2==0;
     }
+
+
 
 }
