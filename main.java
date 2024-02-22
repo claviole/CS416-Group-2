@@ -24,12 +24,13 @@ public class main {
 
 
     static void davidsFunction() {
-        int rand_x,rand_y;
         Random rand = new Random(); 
-        rand x = rand.nextInt(rand_x);
-        rand y = rand.nextInt(rand_y);
 
-        System.out.println("Your lucky number is: " + (x + y));
+        int rand_x = rand.nextInt(1000);
+        int rand_y = rand.nextInt(1000);
+        int rand_z = rand.nextInt(1000);
+
+        System.out.println("Your lucky number is: " + (x + y + z));
     }
     
 }
