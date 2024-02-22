@@ -3,7 +3,9 @@
 public class main {
 public static  char convertToAscii (int a){
 char ascii = (char)a;
+system.out.println(ascii);
 return ascii;
+}
 
 
 
