@@ -1,10 +1,16 @@
 
+
 public class main {
 
-
-
-
-
+    public static void main(String[] args){
+        
+    }
+    
+    public static  char convertToAscii (int a){
+    char ascii = (char)a;
+    return ascii;
+    }
+    
     //Christian Laviolette
     public static void christian(String[] args) {
         System.out.println("Hello, World!");
@@ -16,6 +22,7 @@ public class main {
         return x+y;
     }
 
+
     static void davidsFunction() {
         int rand_x,rand_y;
         Random rand = new Random(); 
@@ -26,4 +33,3 @@ public class main {
     }
     
 }
-
