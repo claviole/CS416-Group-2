@@ -1,16 +1,21 @@
 
 public class main {
-
-
+    //Elijah's Function
+    public static void elijah(int n){
+        for(int i = 0; i < n; ++i){
+            System.out.println(":D");
+        }
+    }
     
     public static  char convertToAscii (int a){
-    char ascii = (char)a;
-    return ascii;
+        char ascii = (char)a;
+        return ascii;
     }
     
     //Christian Laviolette
     public static void main(String[] args) {
         System.out.println("Hello, World!");
+        alecsFunction();
         int luckyNumber = davidsFunction();
         System.out.println(isEven(4));
     }
@@ -22,6 +27,10 @@ public class main {
 
     public static int add(int x, int y) {
         return x+y;
+    }
+  
+  private static void alecsFunction() {
+        System.out.println("This is for lab 3 in CS 41600 \n:)");
     }
 
 
