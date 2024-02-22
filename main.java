@@ -2,9 +2,13 @@
 
 public class main {
 
-    public static void main(String[] args){
-        
-    }
+    //Elijah's Function
+    public static void elijah(int n){
+        for(int i = 0; i < n; ++i){
+            System.out.println(":D");
+        }
+  
+    
     
     public static  char convertToAscii (int a){
     char ascii = (char)a;
