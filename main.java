@@ -1,13 +1,16 @@
 
 
 public class main {
-public static  char convertToAscii (int a){
-char ascii = (char)a;
-return ascii;
 
-
-
-
+    public static void main(String[] args){
+        
+    }
+    
+    public static  char convertToAscii (int a){
+    char ascii = (char)a;
+    return ascii;
+    }
+    
     //Christian Laviolette
     public static void christian(String[] args) {
         System.out.println("Hello, World!");
@@ -17,4 +20,4 @@ return ascii;
         return x+y;
     }
 
-
+}
