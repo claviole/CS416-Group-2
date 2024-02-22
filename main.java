@@ -1,4 +1,3 @@
-
 public class main {
     //Elijah's Function
     public static void elijah(int n){
