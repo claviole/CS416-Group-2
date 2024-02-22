@@ -9,14 +9,10 @@ public class main {
         char ascii = (char) a;
         return ascii;
     }
-
-    // Christian Laviolette
-    public static void christian(String[] args) {
+    
+    //Christian Laviolette
+    public static void main(String[] args) {
         System.out.println("Hello, World!");
-
-        alecsFunction();
-        int luckyNumber = davidsFunction();
-
     }
 
     public static int add(int x, int y) {
@@ -35,5 +31,4 @@ public class main {
 
         System.out.println("Your lucky number is: " + (x + y));
     }
-
 }
