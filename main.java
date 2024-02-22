@@ -1,15 +1,13 @@
 
-
 public class main {
-public static  char convertToAscii (int a){
-char ascii = (char)a;
-return ascii;
-
-
-
-
+    
+    public static  char convertToAscii (int a){
+    char ascii = (char)a;
+    return ascii;
+    }
+    
     //Christian Laviolette
-    public static void christian(String[] args) {
+    public static void main(String[] args) {
         System.out.println("Hello, World!");
     }
 
@@ -17,4 +15,8 @@ return ascii;
         return x+y;
     }
 
+    public static boolean isEven(int n){
+        return n%2==0;
+    }
 
+}
