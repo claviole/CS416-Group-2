@@ -14,7 +14,10 @@ public class main {
     //Christian Laviolette
     public static void christian(String[] args) {
         System.out.println("Hello, World!");
+
         alecsFunction();
+        int luckyNumber = davidsFunction();
+
     }
 
     public static int add(int x, int y) {
@@ -25,4 +28,14 @@ public class main {
         System.out.println("This is for lab 3 in CS 41600 \n:)");
     }
 
+
+    static void davidsFunction() {
+        int rand_x,rand_y;
+        Random rand = new Random(); 
+        rand x = rand.nextInt(rand_x);
+        rand y = rand.nextInt(rand_y);
+
+        System.out.println("Your lucky number is: " + (x + y));
+    }
+    
 }
