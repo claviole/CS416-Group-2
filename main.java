@@ -19,11 +19,17 @@ public class main {
     public static void christian(String[] args) {
         System.out.println("Hello, World!");
 
+        alecsFunction();
         int luckyNumber = davidsFunction();
+
     }
 
     public static int add(int x, int y) {
         return x+y;
+    }
+  
+  private static void alecsFunction() {
+        System.out.println("This is for lab 3 in CS 41600 \n:)");
     }
 
 
