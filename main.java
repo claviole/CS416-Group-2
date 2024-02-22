@@ -1,6 +1,9 @@
 
-public class main {
 
+public class main {
+public static  char convertToAscii (int a){
+char ascii = (char)a;
+return ascii;
 
 
 
@@ -13,5 +16,5 @@ public class main {
     public static int add(int x, int y) {
         return x+y;
     }
-}
+
 
