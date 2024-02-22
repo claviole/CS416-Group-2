@@ -1,7 +1,11 @@
 
 public class main {
-    
-    
+    //Elijah's Function
+    public static void elijah(int n){
+        for(int i = 0; i < n; ++i){
+            System.out.println(":D");
+        }
+    }
     
     
     
