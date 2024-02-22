@@ -1,7 +1,8 @@
 
 
-public class main {
 
+
+    public static void main(String[] args) {
 
      //Elijah's Function
       public static void elijah(int n){
@@ -57,5 +58,12 @@ public class main {
         System.out.println("Your lucky number is: " + (x + y));
     }
 
+
+    
+    public static void felixFunction() {
+        System.out.println("This is a good lab.");
+    }
+
 }
+
 
