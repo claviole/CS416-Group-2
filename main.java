@@ -2,9 +2,9 @@
 
 public class main {
 
-public static  char convertToAscii (int a){
+public static  char convertToAscii(int a){
 char ascii = (char)a;
-system.out.println(ascii);
+System.out.println(ascii);
 return ascii;
 }
 
@@ -52,4 +52,9 @@ return ascii;
         System.out.println("Your lucky number is: " + (x + y));
     }
     
+    public static void felixFunction() {
+        System.out.println("This is a good lab.");
+    }
+
+}
 }
