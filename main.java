@@ -1,7 +1,7 @@
 
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
+public static  char convertToAscii (int a){
+char ascii = (char)a;
+return ascii;
 }
 
