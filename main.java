@@ -1,8 +1,21 @@
 
+
 public class main {
 
 
-    
+     //Elijah's Function
+      public static void elijah(int n){
+        for(int i = 0; i < n; ++i){
+            if(n == 0){
+                System.out.println(":(");
+            }
+            else{
+                System.out.println(":D");
+            }
+            
+        } //updated function, 2nd commit
+        
+        
     public static  char convertToAscii (int a){
     char ascii = (char)a;
     return ascii;
@@ -15,8 +28,8 @@ public class main {
     }
     
     //Christian Laviolette
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
+    public static void print(String str) {
+        System.out.println(str);
     }
 
     public static int add(int x, int y) {
@@ -31,7 +44,6 @@ public class main {
 
 
 
-=======
     private static void alecsFunction() {
         System.out.println("This is for lab 3 in CS 41600");
     }
@@ -46,3 +58,4 @@ public class main {
     }
 
 }
+
