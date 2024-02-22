@@ -2,6 +2,16 @@
 
 public class main {
 
+public static  char convertToAscii (int a){
+char ascii = (char)a;
+system.out.println(ascii);
+return ascii;
+}
+
+
+
+
+
     //Elijah's Function
     public static void elijah(int n){
         for(int i = 0; i < n; ++i){
