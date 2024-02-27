@@ -24,7 +24,7 @@ public class main {
     }
 
 
-
+    //Nick Lachcik
     public static boolean isEven(int n){
         return n%2==0;
     }
