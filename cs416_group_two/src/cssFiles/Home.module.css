@@ -1,0 +1,11 @@
+/* Home.module.css */
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .mapContainer {
+    flex-grow: 1; /* Fill available space */
+    display: flex; /* Ensure this container is also a flex container */
+  }
