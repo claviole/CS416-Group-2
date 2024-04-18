@@ -1,7 +1,13 @@
-import dynamic from 'next/dynamic';
+import dynamic from "next/dynamic";
 
-const ClientOnly = dynamic(() => Promise.resolve(({ children }: { children: React.ReactNode }) => <>{children}</>), {
-    ssr: false
-  });
+const ClientOnly = dynamic(
+	() =>
+		Promise.resolve(({ children }: { children: React.ReactNode }) => (
+			<>{children}</>
+		)),
+	{
+		ssr: false,
+	}
+);
 
 export default ClientOnly;
